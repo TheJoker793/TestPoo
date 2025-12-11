@@ -4,25 +4,26 @@ public class PsyEnseignant implements Medecin, Enseignant {
 
 	@Override
 	public void donnerCours(String matiere) {
-		// TODO Auto-generated method stub
+        System.out.println("Je donne le cours  " + matiere);
 
-	}
+
+    }
 
 	@Override
 	public void preparerLecon(String chapitre) {
-		// TODO Auto-generated method stub
+        System.out.println("Je prepare le chapitre  " + chapitre);
 
 	}
 
 	@Override
 	public void consulterPatient(String patient) {
-		// TODO Auto-generated method stub
+        System.out.println("Je consuulte le patient  " + patient);
 
 	}
 
 	@Override
 	public void prescrireTraitement(String traitement) {
-		// TODO Auto-generated method stub
+        System.out.println("je prescrit le traitement  " + traitement);
 
 	}
 

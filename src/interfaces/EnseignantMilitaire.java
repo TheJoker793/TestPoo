@@ -4,26 +4,27 @@ public class EnseignantMilitaire implements Militaire, Enseignant {
 
 	@Override
 	public void donnerCours(String matiere) {
-		// TODO Auto-generated method stub
+        System.out.println("Je donne le cours " + matiere);
 
 	}
 
 	@Override
 	public void preparerLecon(String chapitre) {
-		// TODO Auto-generated method stub
+        System.out.println("Je prepare le chapitre " + chapitre);
 
 	}
 
 	@Override
 	public void executerOrdre(String ordre) {
-		// TODO Auto-generated method stub
+        System.out.println("J'execute l'ordre' " + ordre);
 
 	}
 
 	@Override
 	public void porterUniforme() {
-		// TODO Auto-generated method stub
+        System.out.println("Je porte la tenu combat");
 
-	}
+
+    }
 
 }
