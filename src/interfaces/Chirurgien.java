@@ -2,6 +2,7 @@ package interfaces;
 
 public class Chirurgien implements Medecin {
 	
+	
 
 	@Override
 	public void consulterPatient(String patient) {
